@@ -1,0 +1,13 @@
+300>Wait 300ms to display this text.\
+500->Then wait 500ms. This text displays as if it's being typed out.\
+3000-15>Wait 3000ms. This is the same, but it takes 15ms per character.\
+50->This text <15>Gets really fast after two words.\
+500->Sit there *75;75ms after a bit.\
+500->Text with a quote that >-'waits and then appears fast'\
+500>?<\
+500>The console has been cleared.\
+$1
+500->The first thing in the async triggers list has activated. The text appears after the hook finishes.\
+750->Text with
+Multiple lines
+And Stuff\
